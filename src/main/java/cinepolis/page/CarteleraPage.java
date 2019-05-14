@@ -51,6 +51,7 @@ public class CarteleraPage extends BasePage {
         switch (language) {
             case ESPANOL:
                 languageElement = spanishLanguage;
+                break;
             case SUBTITULADA:
                 languageElement = subtitleLanguage;
                 break;
