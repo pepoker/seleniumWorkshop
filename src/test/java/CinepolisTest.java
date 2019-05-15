@@ -19,7 +19,7 @@ public class CinepolisTest extends BaseTest {
     @Test
     public void navigateToCinepolis() {
         driver.get("https://www.cinepolis.com/#");
-        driver.findElement(By.cssSelector(".btnVerCartelera"));
+
 
         CinepolisHomePage cinepolisHomePage = new CinepolisHomePage(driver);
         cinepolisHomePage.verCartelera("Chihuahua", "Cinépolis Paseo Central");
